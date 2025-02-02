@@ -1,0 +1,1 @@
+This repository demonstrates a race condition bug in a bash script and its solution.  The `bug.sh` script showcases the issue where two processes concurrently writing to files can result in unexpected or incomplete output. The `bugSolution.sh` script provides a solution using locks to prevent the race condition, ensuring data integrity.
